@@ -1,0 +1,17 @@
+spring:
+ datasource:
+    username: Town_Sport_Signups
+    password: Town_Sport_Signup
+    url: jbdc:mysql://localhost:3306/Town_Sport_Signups
+    
+ jpa:
+   hibernate:
+     ddl-auto:
+   show-sql: true
+   defer-datasource-initializations: true
+   
+ sql:
+   init:
+     mode: always
+   
+   
